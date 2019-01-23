@@ -5,7 +5,6 @@ def choose_item():
     items_list = ['Rock', 'Paper', 'Scissors']
     return random.choice(items_list)
 
-
 #method to format user response or pick random item
 def player_item(string):
     if string.upper() == 'ROCK':
